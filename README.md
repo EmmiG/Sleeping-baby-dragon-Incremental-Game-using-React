@@ -1,3 +1,35 @@
+
+App not done still under progress
+
+TODO List for myself:
+
+
+/* 
+* Man ska kunna skriva in spelarens namn när man kommer till sidan genom ett input-fält sedan ska detta visas upp i högra hörnet på sidan. När man har fyllt i sitt namn ska input-fältet försvinna.
+
+* Spelarens poäng ska öka varje gång man klickar på ett visst objekt på sidan, fortsätter man klicka på detta objekt får man mer och mer poäng. Spelarens poäng ska lagras i state.
+
+* Det ska finnas uppgradering som blir tillgängliga beroende på hur mycket man har klickat: Det ska finnas minst 5 olika uppgraderingar som ökar poängen i olika takt. Ju "dyrare" uppgradering, desto mer ska ens poäng öka. En uppgradering kan t.ex. kosta 50 klick, då dras dessa klick bort från ens nuvarande samling av klick, uppgraderingen i sin tur gör så att varje gång du klickar så ökar ens samling av klick med 2 varje gång. Hur mycket dessa uppgraderingar ska kosta och hur ökningen av kostnaden ska ske får ni själva bestämma.
+
+* Uppgraderingarna ska bli dyrare eller svårare att skaffa desto fler av dem man köper. En uppgradering kan t.ex. kosta 15 klick första gången man köper den och sedan ökar kostnaden med 5 klick varje gång man köper en till av den.
+
+* Minst en av uppgraderingarna ska göra så att poängen ökas automatiskt enligt ett visst intervall. Denna uppgradering ska alltså göra så att man slipper klicka men får poäng ändå, men man kan ändå klicka för att få poäng snabbare.
+
+* Du delar upp din applikation i flera mindre komponenter. Skapar du ett formulär kan du t.ex. döpa det till <SubmitForm />. <SubmitForm /> kan i sin tur har underkomponenter så som <InputField /> och SubmitButton />.
+
+* Innehåller dina komponenter ingen logik (state t.ex.) så ska de vara Stateless components, d.v.s. använda sig utav function och inte class. <InputField /> behöver t.ex. inte ha sitt eget state och kan därför vara en function. <SubmitForm /> behöver troligtvis ha ett eget state så <SubmitForm /> ska i så fall vara en class.
+
+* Du ska ha en mapp inuti src som heter components där dina komponenter ska ligga, denna mapp kan i sin tur ha undermappar.
+
+* För styling får du använda ett ramverk som t.ex. Bootstrap eller Semantic UI. Eller ska kan du skriva din css helt själv. Vilket sätter du väljer att styla dina komponenter är upp till dig men upplägget och användning av styling ska vara konsekvent. Du får använda bibliotek så som styled components
+
+* Din kod versionhanteras via GitHub och ska ha en README som innehåller ditt namn, länk till repot och eventuell länk till live-sidan om du har deployat din applikation
+
+*/
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
