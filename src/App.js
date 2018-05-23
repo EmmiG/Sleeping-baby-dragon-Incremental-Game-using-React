@@ -2,22 +2,51 @@
 
 
 import React, { Component } from 'react';
-//import logo from './logo.svg';
-import './App.css';
+import Container from './Container';
+import LoginForm from './LoginForm';
+import '../App.css';
+
 
 //! Our main component!  
 
 class App extends Component {
+    
+    state = {
+    loggedIn: false,
+    email: ''
+  }
+
+logout = () => {
+    this.setState({ loggedIn: false });
+  }
+
+handleLogin = (email, password) => {
+    this.setState({ loggedIn: true, email: email });
+  }
+
   render() {
-      //JSX syntax
-      let result = 1 + 2;
-      let className = "an-app";
+      
+       //JSX syntax
+      
+      let loggedInMessage = null;
+    if(this.state.loggedIn){
+      loggedInMessage = <p> You are logged in! </p>
+    }
+      
+     
+     
       // Return what´s visable
     return (
-      <div className={className}>
-        <h1>{result}</h1>
-        <h1>{1 + 2}</h1>
-        </div>
+        
+        <Container>
+        { loggedInMessage }
+        {
+        
+           !this.state.loggedIn && <LoginForm handleLogin={this.handleLogin} />
+        }
+      </Container>
+        
+       
     );
   }
 }
