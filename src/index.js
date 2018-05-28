@@ -6,5 +6,13 @@ import './index.css'; // lagt till css om vi skriver css i index css filen
 import App from './App'; // lägger till hela vår application för att vi ska kunna montera  
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root')); /* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
+const rootElement = document.getElementById('root');
+
+/* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
+
+ReactDOM.render(<App />, 
+rootElement
+);
+                
+/* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
 registerServiceWorker();

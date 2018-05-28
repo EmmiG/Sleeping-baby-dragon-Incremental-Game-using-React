@@ -2,9 +2,9 @@
 
 
 import React, { Component } from 'react';
-import Container from './Container';
-import LoginForm from './LoginForm';
-import '../App.css';
+import Container from './Components/Container';
+import LoginForm from './Components/LoginForm';
+import './App.css';
 
 
 //! Our main component!  
