@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Playlists(props){
+    
+    /* login */ 
   return props.playlists.map((playlist) => {
     if (playlist.title.includes(props.searchTerm)) {
       return (

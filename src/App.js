@@ -4,12 +4,15 @@
 import React, { Component } from 'react';
 import Container from './Components/Container';
 import LoginForm from './Components/LoginForm';
+import Counter from './Components/Counter'; // import from the Counter file 
 import './App.css';
 
 
 //! Our main component!  
 
-class App extends Component {
+class App extends React.Component {
+    
+    /* login */
     
     state = {
     loggedIn: false,
@@ -25,6 +28,8 @@ handleLogin = (email, password) => {
   }
 
   render() {
+
+      /* login */
       
        //JSX syntax
       
@@ -38,7 +43,15 @@ handleLogin = (email, password) => {
       // Return what´s visable
     return (
         
+        /* login*/
+        
         <Container>
+        { /* counter*/ }
+        <div>
+        <Counter />
+        <Counter />
+        <Counter />
+      </div>
         { loggedInMessage }
         {
         
@@ -46,7 +59,6 @@ handleLogin = (email, password) => {
         }
       </Container>
         
-       
     );
   }
 }

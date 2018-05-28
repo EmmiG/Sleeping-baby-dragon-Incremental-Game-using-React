@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 // when you shall use state you start with class
 class LoginForm extends Component {
     
+    /*login*/
+    
     state = {
     email: '',
     password: '',
@@ -40,7 +42,7 @@ handleEmail = (event) => {
     
     render(){
         
-        /* login*/
+        /* login */
         
         let errorMessage = null;
     if(this.state.error){

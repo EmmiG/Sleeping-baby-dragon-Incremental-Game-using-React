@@ -15,4 +15,24 @@ rootElement
 );
                 
 /* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
+
+/* counter */
+
 registerServiceWorker();
+
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    const NextApp = require('./App').default
+    ReactDOM.render(
+      <NextApp />,
+      rootElement
+    )
+  })
+    
+    }
+    
+    registerServiceWorker();
+
+
+
+
