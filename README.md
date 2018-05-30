@@ -5,7 +5,7 @@ TODO List for myself:
 
 
 /* 
-* Man ska kunna skriva in spelarens namn när man kommer till sidan genom ett input-fält sedan ska detta visas upp i högra hörnet på sidan. När man har fyllt i sitt namn ska input-fältet försvinna.
+V* Man ska kunna skriva in spelarens namn när man kommer till sidan genom ett input-fält sedan ska detta visas upp i högra hörnet på sidan. När man har fyllt i sitt namn ska input-fältet försvinna.
 
 * Spelarens poäng ska öka varje gång man klickar på ett visst objekt på sidan, fortsätter man klicka på detta objekt får man mer och mer poäng. Spelarens poäng ska lagras i state.
 
@@ -19,7 +19,7 @@ TODO List for myself:
 
 * Innehåller dina komponenter ingen logik (state t.ex.) så ska de vara Stateless components, d.v.s. använda sig utav function och inte class. <InputField /> behöver t.ex. inte ha sitt eget state och kan därför vara en function. <SubmitForm /> behöver troligtvis ha ett eget state så <SubmitForm /> ska i så fall vara en class.
 
-* Du ska ha en mapp inuti src som heter components där dina komponenter ska ligga, denna mapp kan i sin tur ha undermappar.
+V* Du ska ha en mapp inuti src som heter components där dina komponenter ska ligga, denna mapp kan i sin tur ha undermappar.
 
 * För styling får du använda ett ramverk som t.ex. Bootstrap eller Semantic UI. Eller ska kan du skriva din css helt själv. Vilket sätter du väljer att styla dina komponenter är upp till dig men upplägget och användning av styling ska vara konsekvent. Du får använda bibliotek så som styled components
 

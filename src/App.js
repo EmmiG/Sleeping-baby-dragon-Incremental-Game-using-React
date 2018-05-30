@@ -13,7 +13,7 @@ import './App.css';
 
 class App extends React.Component {
     
-    /* login */
+    /* login */ 
     
     state = {
     loggedIn: false,
@@ -27,6 +27,29 @@ logout = () => {
 handleLogin = (email, password) => {
     this.setState({ loggedIn: true, email: email });
   }
+
+ /* click controller */ 
+
+constructor(props){
+    super(props);
+    this.state = {
+        clicks: 0,
+        show:true
+    };
+}
+
+DefaultPoint = () => {
+    this.setState({ clicks: this.state.clicks + 1 });
+}
+
+UpgradePoint = () => {
+    this.setState({ clicks: this.state.clicks + 2 });
+    
+}
+
+ToggleClick = () => {
+    this.setState({ show: !this.state.show});
+}
 
   render() {
 
@@ -68,9 +91,22 @@ handleLogin = (email, password) => {
         </div>
         
     
-        { /* level */ }
+       
+        { /* click controller */ }
         
         <div id="upgrade-level">
+        
+        <button onClick={this.DefaultPoint}> Click to add by 1</button>
+        <button onClick={this.UpgradePoint}> Click to add by 2</button>
+         <button onClick={this.ToggleClick}>
+        
+        {this.state.show ? 'Hide number' : 'Show number'}
+        </button>
+        
+        
+        { this.state.show ? <h2> { this.state.clicks }</h2> : ''}
+        
+         { /* level */ } 
         
         <p> level </p>
         
