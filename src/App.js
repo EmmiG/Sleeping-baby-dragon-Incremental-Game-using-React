@@ -2,6 +2,7 @@
 
 
 import React, { Component } from 'react';
+import Header from './Components/Header';
 import Container from './Components/Container';
 import LoginForm from './Components/LoginForm';
 import Counter from './Components/Counter'; // import from the Counter file 
@@ -35,28 +36,62 @@ handleLogin = (email, password) => {
       
       let loggedInMessage = null;
     if(this.state.loggedIn){
-      loggedInMessage = <p> You are logged in! </p>
+      loggedInMessage = <p id="loggedIn"> You are logged in!, Welcome dragoness390 </p>
     }
       
      
      
       // Return what´s visable
     return (
+         <Container>
+        { /* header*/ }
         
-        /* login*/
-        
-        <Container>
-        { /* counter*/ }
         <div>
-        <Counter />
-        <Counter />
-        <Counter />
-      </div>
-        { loggedInMessage }
+         <Header />
+        </div>
+        
+        
+        { /* login*/ }
+        
+       
+        
+        <div id="login-form">
+        
+          { loggedInMessage }
         {
         
            !this.state.loggedIn && <LoginForm handleLogin={this.handleLogin} />
         }
+        
+        <div className="clear"></div>
+        
+        </div>
+        
+    
+        { /* level */ }
+        
+        <div id="upgrade-level">
+        
+        <p> level </p>
+        
+        </div>
+        
+        { /* shop */ }
+        
+        <div id="upgrade-shop">
+        
+        <p> shop </p>
+        
+        </div>
+        
+        
+        { /* counter*/ }
+        <div id="counter-of-clicks">
+        <Counter />
+        <Counter />
+        <Counter />
+      </div>
+      
       </Container>
         
     );

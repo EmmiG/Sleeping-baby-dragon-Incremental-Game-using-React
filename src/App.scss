@@ -29,3 +29,76 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/* Header */
+
+#logo-title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* login */
+
+#loggedIn{
+    align-text: right;
+    
+}
+
+
+#login-form, #loggedIn{
+    text-align: right;
+    //margin-top: 30px;
+}
+
+#login-form{
+    //text-align: right;
+   // max-width: 350px;
+    // max-height: 350px;
+    //float: right;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.container-fluid{
+    
+    
+    
+}
+
+/* middle part */
+
+#counter-of-clicks{
+    text-align: center;
+    padding: 120px;
+    
+    
+    
+}
+
+#email, .form-control{
+    //text-align: right;
+}
+
+
+
+
+
+.form{
+    text-align: right;
+}
+
+
+#upgrade-shop{
+    float: left;
+}
+
+#upgrade-level{
+    float: right;
+}
+
+

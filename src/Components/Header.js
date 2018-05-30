@@ -5,7 +5,7 @@ import React from 'react';
 function Header(){
   return(
     <header>
-      <h1>Playlists!</h1>
+      <h1 id="logo-title">Sleeping baby dragon</h1>
     </header>
   )
 }
