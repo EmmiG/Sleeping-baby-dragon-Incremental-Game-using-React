@@ -127,6 +127,10 @@ ToggleClick = () => {
         <Counter />
         <Counter />
       </div>
+        
+        <div id="default-dragon">
+        <p> Sleeping/waking baby dragon animation </p> 
+        </div>
       
       </Container>
         
