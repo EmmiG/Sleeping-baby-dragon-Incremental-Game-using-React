@@ -1,5 +1,8 @@
-/* Här ska all styling vara/ All styling will be here*/
 
+
+@import 'sass/mobile'; 
+@import'sass/tablet';  
+@import 'sass/desktop';  
 
 .App {
   text-align: center;
@@ -33,10 +36,12 @@
 
 /* Header */
 
-#logo-title{
+/*#logo-title{
     text-align: center;
     margin-top: 30px;
 }
+
+*/
 
 
 /* login */
@@ -106,6 +111,11 @@
     
     text-align: center;
     
+}
+
+.bubble-image{
+    background: url("./images/bild.jpg");
+    background-size: cover;
 }
 
 

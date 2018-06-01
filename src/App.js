@@ -96,7 +96,7 @@ ToggleClick = () => {
         
         <div id="upgrade-level">
         
-        <button onClick={this.DefaultPoint}> Click to add by 1</button>
+        <button className="bubble-image" onClick={this.DefaultPoint}> Click to add by 1</button>
         <button onClick={this.UpgradePoint}> Click to add by 2</button>
          <button onClick={this.ToggleClick}>
         
