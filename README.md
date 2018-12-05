@@ -7,9 +7,9 @@ TODO List for myself:
 /* 
 V* Man ska kunna skriva in spelarens namn när man kommer till sidan genom ett input-fält sedan ska detta visas upp i högra hörnet på sidan. När man har fyllt i sitt namn ska input-fältet försvinna.
 
-* Spelarens poäng ska öka varje gång man klickar på ett visst objekt på sidan, fortsätter man klicka på detta objekt får man mer och mer poäng. Spelarens poäng ska lagras i state.
+V* Spelarens poäng ska öka varje gång man klickar på ett visst objekt på sidan, fortsätter man klicka på detta objekt får man mer och mer poäng. Spelarens poäng ska lagras i state.
 
-* Det ska finnas uppgradering som blir tillgängliga beroende på hur mycket man har klickat: Det ska finnas minst 5 olika uppgraderingar som ökar poängen i olika takt. Ju "dyrare" uppgradering, desto mer ska ens poäng öka. En uppgradering kan t.ex. kosta 50 klick, då dras dessa klick bort från ens nuvarande samling av klick, uppgraderingen i sin tur gör så att varje gång du klickar så ökar ens samling av klick med 2 varje gång. Hur mycket dessa uppgraderingar ska kosta och hur ökningen av kostnaden ska ske får ni själva bestämma.
+* Det ska finnas uppgradering som blir tillgängliga beroende på hur mycket man har klickat: Det ska finnas minst 5 olika uppgraderingar som ökar poängen i olika takt. Ju "dyrare" uppgradering, desto mer ska ens poäng öka. En uppgradering kan t.ex. kosta 50 klick, då dras dessa klick bort från ens nuvarande samling av klick, uppgraderingen i sin tur gör så att varje gång du klickar så ökar ens samling av klick med 2 varje gång V. Hur mycket dessa uppgraderingar ska kosta och hur ökningen av kostnaden ska ske får ni själva bestämma.
 
 * Uppgraderingarna ska bli dyrare eller svårare att skaffa desto fler av dem man köper. En uppgradering kan t.ex. kosta 15 klick första gången man köper den och sedan ökar kostnaden med 5 klick varje gång man köper en till av den.
 

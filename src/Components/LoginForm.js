@@ -17,7 +17,7 @@ handleEmail = (event) => {
 
   handlePassword = (event) => {
       
-      if (this.state.password.length < 10) {
+      if (this.state.password.length < 7) {
       this.setState({ error: "Password too short" });
     } else {
       this.setState({ error: '' });
@@ -29,7 +29,7 @@ handleEmail = (event) => {
   handleSubmit = (event) => {
       
       event.preventDefault();
-    if(this.state.email === "dragoness390@gmail.com" && this.state.password === "login1234"){
+    if(this.state.email === "dragoness390@hotmail.com" && this.state.password === "login1234"){
         
         this.props.handleLogin(this.state.email, this.state.password);
     } else {
