@@ -127,6 +127,7 @@ ToggleClick = () => {
     
        
         { /* click controller, creating the buttons */ }
+                        { /* Ökning */ }
         
         <div id="upgrade-level">
         { /* Default level Click to add by one */ }
@@ -148,6 +149,7 @@ ToggleClick = () => {
         
         
         { this.state.show ? <h2> { this.state.clicks }</h2> : ''}
+        
         
          { /* level */ } 
         
