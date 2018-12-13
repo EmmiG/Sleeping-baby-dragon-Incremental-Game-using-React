@@ -1,5 +1,7 @@
 import React from 'react';
 
+/* Will contain information from: UpgradeContainer, UserStatsContainer */
+
 /* login */
 
 function MasterContainer(props){
