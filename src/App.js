@@ -3,7 +3,7 @@
 
 import React, { Component } from 'react';
 import Header from './Components/Header';
-import Container from './Components/Container';
+import MasterContainer from './Components/MasterContainer';
 import LoginForm from './Components/LoginForm';
 import Counter from './Components/Counter'; // import from the Counter file 
 import './App.css';
@@ -100,7 +100,7 @@ ToggleClick = () => {
      
       // Return what´s visable
     return (
-         <Container>
+         <MasterContainer>
         { /* header*/ }
         
         <div>
@@ -177,7 +177,7 @@ ToggleClick = () => {
         <p> Sleeping/waking baby dragon animation </p> 
         </div>
       
-      </Container>
+      </MasterContainer>
         
     );
   }

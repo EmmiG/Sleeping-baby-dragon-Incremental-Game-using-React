@@ -2,7 +2,7 @@ import React from 'react';
 
 /* login */
 
-function Container(props){
+function MasterContainer(props){
   return(
     <section className="container-fluid">
       { props.children }
@@ -10,4 +10,4 @@ function Container(props){
   )
 }
 
-export default Container;
+export default MasterContainer;
