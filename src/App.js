@@ -1,4 +1,4 @@
-/*Main file to edit the content / Huvudsakliga filen för att redigera innehållet*/
+/* Main file to edit the content */
 
 
 import React, { Component } from 'react';
