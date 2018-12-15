@@ -32,6 +32,16 @@ handleLogin = (email, password) => {
 
 constructor(props){
     super(props);
+    
+    /*
+    When you call a callback(click on a button for instance) and you dont have bind it can lose its context or/and the *this* value and also write out undefined in the console.
+    */
+    this.DefaultPoint = this.DefaultPoint.bind(this);
+    this.CrystalBall = this.CrystalBall.bind(this);
+    this.DragonCloset = this.DragonCloset.bind(this);
+    this.DragonGemBox = this.DragonGemBox.bind(this);
+    this.TreasureChest = this.TreasureChest.bind(this);
+    this.HelpingSpirit = this.HelpingSpirit.bind(this);
     this.state = {
         clicks: 0,
         show:true
