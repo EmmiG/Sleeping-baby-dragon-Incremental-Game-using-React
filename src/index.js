@@ -1,20 +1,21 @@
-/* den koden som körs rekommenderas att vara skriven med import React from 'react'; för att den ska funka/ the code that runs need to be typed this way to work*/
+/* The code that shall run is recommended to be typed with * import React from 'react'; * for it to work*/
 
-import React from 'react'; // ska skrivas på varje ny fil som vi skapar
-import ReactDOM from 'react-dom'; // lägga till informationen 
-import './index.css'; // lagt till css om vi skriver css i index css filen
-import App from './App'; // lägger till hela vår application för att vi ska kunna montera  
+import React from 'react'; // shall be wrote on every new file that we create
+import ReactDOM from 'react-dom'; // add information 
+import './index.css'; // added css which we write css in the index css file
+import App from './App'; // adding the whole application so that we will be able to mountate  
 import registerServiceWorker from './registerServiceWorker';
 
 const rootElement = document.getElementById('root');
 
-/* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
+/* 
+In most cases is the name of a div root in react where the whole application lay, the only place we need to use getElementById which is native(inbyggt) in the javascipt, but here we mount information in a place, we mount a component in the root folder.
+*/
 
 ReactDOM.render(<App />, 
 rootElement
 );
                 
-/* för det mesta heter en div root i react där all application ligger, ända stället vi behöver använda getElementById som är inbyggt i javascript, men här monterar vi informationen på något ställe. Vi monterar en komponent i root mappen */
 
 /* counter */
 
