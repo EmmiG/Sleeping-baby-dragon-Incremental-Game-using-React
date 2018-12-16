@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-// PlayerNameDisplay component, passing in props from LoginForm.
-// Displayed in PlayerStatsContainer.
+// UserName component, passing in props from LoginForm.
+// Displayed in UserStatsContainer.
 function UserName(props) {
   return (
       
