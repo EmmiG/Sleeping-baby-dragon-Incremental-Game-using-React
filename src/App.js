@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import MasterContainer from './Components/MasterContainer';
 import Header from './Components/Header';
 import LoginForm from './Components/LoginForm';
-import Counter from './Components/Counter'; // import from the Counter file 
 import UserName from './Components/UserName';
 import './App.css';
 
@@ -223,12 +222,6 @@ ToggleClick = () => {
         </div>
         
         
-        { /* counter*/ }
-        <div id="counter-of-clicks">
-        <Counter />
-        <Counter />
-        <Counter />
-      </div>
         
         <div id="default-dragon">
         <p> Sleeping/waking baby dragon animation </p> 
