@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+//import Header from './Header.js';
+//import Header from './Components/Header';
 
 // when you shall use state you start with class
 class LoginForm extends Component {
@@ -29,11 +31,12 @@ handleEmail = (event) => {
   handleSubmit = (event) => {
       
       event.preventDefault();
-    if(this.state.email === "dragoness390@hotmail.com" && this.state.password === "login1234"){
-        
-        this.props.handleLogin(this.state.email, this.state.password);
-    } else {
+    if(this.state.email === '' && this.state.password === ''){
       this.setState({ error: "Wrong email or password!" });
+        
+    } else {
+         this.props.handleLogin(this.state.email, this.state.password);
+    
     }
     
   }
@@ -43,6 +46,8 @@ handleEmail = (event) => {
     render(){
         
         /* login */
+        
+        
         
         let errorMessage = null;
     if(this.state.error){

@@ -2,10 +2,11 @@
 
 
 import React, { Component } from 'react';
-import Header from './Components/Header';
 import MasterContainer from './Components/MasterContainer';
+import Header from './Components/Header';
 import LoginForm from './Components/LoginForm';
 import Counter from './Components/Counter'; // import from the Counter file 
+import UserName from './Components/UserName';
 import './App.css';
 
 
@@ -97,16 +98,17 @@ ToggleClick = () => {
 
   render() {
 
-      /* login */
+    
+        /* login */
       
        //JSX syntax
       
       let loggedInMessage = null;
     if(this.state.loggedIn){
-      loggedInMessage = <p id="loggedIn"> You are logged in!, Welcome dragoness390 </p>
+      loggedInMessage = <p id="loggedIn"> You are logged in!, Welcome {this.state.email} </p>
+        /* this.state.email = that it react on the same page. props.email = means the same thing but will work from a different location/file.*/
+        
     }
-      
-     
      
       // Return what´s visable
     return (
