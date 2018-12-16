@@ -9,8 +9,9 @@ function UserName(props) {
      
     <div className="user-name-container">
       <h1 className="header-login">
-        
-
+        Welcome <span className="player-name-span">{props.email}</span>
+      </h1>
+    </div>
     
        
       </h1>

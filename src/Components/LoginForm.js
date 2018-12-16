@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import Header from './Header.js';
-//import Header from './Components/Header';
+import Header from './Header.js';
+//import Header from './Components/Header.js';
 
 // when you shall use state you start with class
 class LoginForm extends Component {
@@ -58,7 +58,8 @@ handleEmail = (event) => {
       errorClass = "form-group has-danger";
     }
         return(
-            
+            <div>
+            <Header />
             <form onSubmit={this.handleSubmit}>
         <div className={ errorClass }>
           <label htmlFor="email">Email address</label>
@@ -93,6 +94,7 @@ handleEmail = (event) => {
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
+        </div>
       );
     }
 }
