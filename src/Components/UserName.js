@@ -9,13 +9,11 @@ function UserName(props) {
      
     <div className="user-name-container">
       <h1 className="header-login">
-        Welcome <span className="player-name-span">{props.email}</span>
+        Welcome <span className="user-name-span">{props.email}</span>
       </h1>
     </div>
     
-       
-      </h1>
-    </div>
+    
   );
 }
 

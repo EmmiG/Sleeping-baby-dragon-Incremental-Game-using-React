@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
-//import Header from './Components/Header.js';
+
 
 // when you shall use state you start with class
 class LoginForm extends Component {
@@ -65,6 +65,7 @@ handleEmail = (event) => {
           <label htmlFor="email">Email address</label>
           <input 
                   type="email"
+                  autoFocus
                   className="form-control"
                   name="email"
                   id="email"

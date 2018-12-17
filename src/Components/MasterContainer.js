@@ -1,11 +1,12 @@
 //import React from 'react';
 import React, { Component } from 'react';
-//import UserName from './Components/UserName';
 /* Will contain information from: UpgradeContainer, UserStatsContainer */
+
+import UserStatsContainer from './UserStatsContainer.js';
 
 /* login */
 
-/*class MainContainer extends Component {
+class MasterContainer extends Component {
   
     
   constructor(props) {
@@ -13,17 +14,24 @@ import React, { Component } from 'react';
 
     
   }
-  */  
+   
 
 
 
-
-function MasterContainer(props){
-  return(
-    <section className="container-fluid">
-      { props.children }
-    </section>
-  )
+render() {
+    return (
+      <div className="master-container container">
+        <div className="row">
+          <UserStatsContainer
+            email={this.props.email}
+          
+          />
+          
+        </div>
+      </div>
+    );
+  }
 }
+
 
 export default MasterContainer;
