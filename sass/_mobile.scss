@@ -90,3 +90,17 @@
     background-size: cover;
 }
 
+/* DragonImage Component */
+
+div.dragon-image-container {
+  text-align: center;
+}
+img.dragon-click-image {
+  width: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+img.dragon-click-image:active {
+  transform: scale(0.8);
+}
+

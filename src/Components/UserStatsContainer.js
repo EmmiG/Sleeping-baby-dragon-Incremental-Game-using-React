@@ -2,14 +2,8 @@
 
 import React from 'react';
 import UserName from './UserName.js';
-/*import DragonImage from './DragonImage.js';
-import TotalClickContainer from './TotalClickContainer.js';
-import Counter from './Counter.js';*/
-
-
-
-
-
+import DragonImage from './DragonImage.js';
+import TotalSnoreContainer from './TotalSnoreContainer.js';
 
 
 
@@ -20,7 +14,12 @@ function UserStatsContainer(props) {
       {/* UserName component, with props for email */}
       <UserName email={props.email} />
       {/* DragonImage component, with props for handleClicks function */}
-    
+      <DragonImage onDragonClick={props.handleDragonClick} />
+      
+        <TotalSnoreContainer
+        totalSnore={props.totalSnore}
+        snorePerSecond={props.snorePerSecond}
+      />
         
       
     </div>

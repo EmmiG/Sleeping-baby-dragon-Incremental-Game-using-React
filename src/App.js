@@ -3,9 +3,7 @@
 
 import React, { Component } from 'react';
 import MasterContainer from './Components/MasterContainer';
-//import Header from './Components/Header';
 import LoginForm from './Components/LoginForm';
-//import UserName from './Components/UserName';
 import './App.css';
 
 
