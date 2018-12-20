@@ -18,13 +18,14 @@ class MasterContainer extends Component {
       multiply: 1,
     };
       
-      
+ /* Bind */     
 this.handleDragonClick = this.handleDragonClick.bind(this);
+this.buyShopItem = this.buyShopItem.bind(this);
 
     
   }
     
-    
+/* */   
 handleDragonClick() {
     this.setState({
       totalSnore: this.state.totalSnore + this.state.multiply,
@@ -32,7 +33,13 @@ handleDragonClick() {
   }
    
 
-
+ /* */
+  buyShopItem(multiply, costItem) {
+    this.setState({
+      totalSnore: this.state.totalSnore - costItem,
+      multiply: multiply,
+    });
+  }
 
 render() {
     return (
@@ -43,6 +50,7 @@ render() {
             email={this.props.email}
             totalSnore={this.state.totalSnore}
          snorePerSecond={this.state.snorePerSecond}
+         buyShopItem={this.buyShopItem}
           
           />
           
