@@ -1,8 +1,8 @@
 //import React from 'react';
+/* Will contain information from: DragonUpgradesContainer, UserStatsContainer  */
 import React, { Component } from 'react';
-/* Will contain information from: UpgradeContainer, UserStatsContainer */
-
 import UserStatsContainer from './UserStatsContainer.js';
+import DragonUpgradesContainer from './DragonUpgradesContainer.js';
 
 /* login */
 
@@ -21,6 +21,7 @@ class MasterContainer extends Component {
  /* Bind */     
 this.handleDragonClick = this.handleDragonClick.bind(this);
 this.buyShopItem = this.buyShopItem.bind(this);
+this.buyDragonUpgrade = this.buyDragonUpgrade.bind(this);
 
     
   }
@@ -41,6 +42,13 @@ handleDragonClick() {
     });
   }
 
+buyDragonUpgrade(snorePerSecond, cost) {
+    this.setState({
+      totalSnore: this.state.totalSnore - cost,
+      snorePerSecond: this.state.snorePerSecond + snorePerSecond,
+    });
+  }
+    
 render() {
     return (
       <div className="master-container container">
@@ -53,7 +61,10 @@ render() {
          buyShopItem={this.buyShopItem}
           
           />
-          
+          <DragonUpgradesContainer
+            totalSnore={this.state.totalSnore}
+            buyDragonUpgrade={this.buyDragonUpgrade}
+          />
         </div>
       </div>
     );

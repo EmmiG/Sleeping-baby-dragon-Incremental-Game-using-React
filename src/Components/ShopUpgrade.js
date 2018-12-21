@@ -37,7 +37,7 @@ class ShopUpgrade extends Component {
   }
 
   render() {
-   
+   // const shop = this.props.shop;
     let price = this.state.price;
     
     let canBuy = price <= this.props.totalSnore;
@@ -57,6 +57,9 @@ class ShopUpgrade extends Component {
       <div className="col-sm-3 shop-button-container">
         <button className={className} onClick={this.handleDragonClick}>
           {this.props.name}
+        {/*  <div className="Shop-image-container col-xs-3 col-sm-3 col-lg-3">
+            <img src={shop.image} className="shop-image" alt="" />
+          </div>*/}
         </button>
       </div>
     );
