@@ -29,7 +29,6 @@ function UserStatsContainer(props) {
       <div className="row multiplier-row">
         {/* 5 shop upgrades */}
       
-       {/* Unlock clicks add by 2, in the future version of this game it will unlock costumes */}
         <ShopUpgrade
           itemCost={50}
           name="Crystal Ball"
@@ -40,7 +39,7 @@ function UserStatsContainer(props) {
         
          {/* Unlock clicks add by 5, in the future version of this game it will unlock costumes */}
         <ShopUpgrade
-          itemCost={500}
+          itemCost={300}
           name="Dragon Closet"
           multiply={5}
           buyShopItem={props.buyShopItem}
@@ -56,7 +55,7 @@ function UserStatsContainer(props) {
         />
       
         <ShopUpgrade
-          itemCost={75000}
+          itemCost={5000}
           name="Treasure Chest"
           multiply={20}
           buyShopItem={props.buyShopItem}
