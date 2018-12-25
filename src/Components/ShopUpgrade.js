@@ -12,6 +12,7 @@ class ShopUpgrade extends Component {
       sold: false, // Every shop item have a default state as 0 at the start of the game.
       available: false, // Every shop item is 'locked' rather unavailable at the start of the game.
       price: this.props.itemCost, // Item cost.
+     // running: false, // 
     };
   }
 
@@ -35,7 +36,8 @@ class ShopUpgrade extends Component {
       sold: true,
     });
   }
-
+    
+  
   render() {
    // const shop = this.props.shop;
     let price = this.state.price;

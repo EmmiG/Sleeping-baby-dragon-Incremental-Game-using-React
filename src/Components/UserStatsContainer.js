@@ -35,6 +35,7 @@ function UserStatsContainer(props) {
           multiply={2}
           buyShopItem={props.buyShopItem}
           totalSnore={props.totalSnore}
+
         />
         
          {/* Unlock clicks add by 5, in the future version of this game it will unlock costumes */}

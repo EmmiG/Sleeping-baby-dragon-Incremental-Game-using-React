@@ -16,6 +16,7 @@ class MasterContainer extends Component {
       totalSnore: 0,
       snorePerSecond: 0,
       multiply: 1,
+     //running: false, // 
     };
       
  /* Bind */     
@@ -48,6 +49,27 @@ buyDragonUpgrade(snorePerSecond, cost) {
       snorePerSecond: this.state.snorePerSecond + snorePerSecond,
     });
   }
+    
+    
+   componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+
+  tick() {
+    this.setState({
+        ///running: true,
+      totalSnore: this.state.totalSnore + this.state.snorePerSecond,
+    });
+  }
+
+    
+
     
 render() {
     return (
