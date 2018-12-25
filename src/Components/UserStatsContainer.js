@@ -5,6 +5,7 @@ import UserName from './UserName.js';
 import DragonImage from './DragonImage.js';
 import TotalSnoreContainer from './TotalSnoreContainer.js';
 import ShopUpgrade from './ShopUpgrade.js';
+//import HiddenandShow from './HiddenandShow.js';
 
 
 
@@ -20,6 +21,10 @@ function UserStatsContainer(props) {
         totalSnore={props.totalSnore}
         snorePerSecond={props.snorePerSecond}
       />
+      
+      {/*<HiddenandShow 
+       ToggleClick={props.ToggleClick}
+     />*/}
       
       
       <h1 className="shop-header-title">SHOP ITEMS</h1>
