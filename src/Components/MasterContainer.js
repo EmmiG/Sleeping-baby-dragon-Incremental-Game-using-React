@@ -52,16 +52,16 @@ buyDragonUpgrade(snorePerSecond, cost) {
     
     
    componentDidMount() {
-    this.timerID = setInterval(() => this.tick(), 1000);
+    this.timeSet = setInterval(() => this.timePerSecond(), 1000);
   }
 
 
   componentWillUnmount() {
-    clearInterval(this.timerID);
+    clearInterval(this.timeSet);
   }
 
 
-  tick() {
+  timePerSecond() {
     this.setState({
         ///running: true,
       totalSnore: this.state.totalSnore + this.state.snorePerSecond,
