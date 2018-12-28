@@ -104,3 +104,26 @@ img.dragon-click-image:active {
   transform: scale(0.8);
 }
 
+/* ShopUpgrade buttons default, available and sold out */
+
+
+ .sold-upgrade-button{
+    background: red;
+    
+} 
+        
+.available-upgrade-button{
+    background: green;
+    
+}
+
+.available-upgrade-buttondisabled{
+    background: green;
+}
+
+.col-sm-3 shop-button-container{
+    
+    background: blue;
+    
+}
+
