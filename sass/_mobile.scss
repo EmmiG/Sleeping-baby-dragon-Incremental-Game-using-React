@@ -113,12 +113,16 @@ img.dragon-click-image:active {
 } 
         
 .available-upgrade-button{
-    background: green;
+    background: url("/public/images/sold.png");
+      
+    
+    }
     
 }
 
 .available-upgrade-buttondisabled{
-    background: green;
+    background: grey;
+   
 }
 
 .col-sm-3 shop-button-container{
