@@ -113,7 +113,11 @@ img.dragon-click-image:active {
 } 
         
 .available-upgrade-button{
-    background: url("/public/images/availableimage.png");
+   
+       background: url("./images/bild.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
       
     }
     
