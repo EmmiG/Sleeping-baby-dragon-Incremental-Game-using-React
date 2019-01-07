@@ -108,13 +108,16 @@ img.dragon-click-image:active {
 
 
  .sold-upgrade-button{
-    background: red;
+    background: url("./images/sold.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 } 
         
 .available-upgrade-button{
    
-       background: url("./images/bild.jpg");
+    background: url("./images/availableimage.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,7 +126,10 @@ img.dragon-click-image:active {
     
 
 .available-upgrade-buttondisabled{
-    background: grey;
+    background: url("./images/Defaultimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
    
 }
 
