@@ -133,9 +133,20 @@ img.dragon-click-image:active {
    
 }
 
-.col-sm-3 shop-button-container{
-    
-    background: blue;
+/* Basket buttons */
+
+.Dragon-upgrade-basket-buttondisabled{
+    background: url("./images/Defaultimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
 
+.Dragon-upgrade-basket-button{
+    background: url("./images/availableimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
