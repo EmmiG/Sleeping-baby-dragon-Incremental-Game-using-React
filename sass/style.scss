@@ -1,8 +1,8 @@
 @import "_mobile.scss";
-@media screen and (min-width: 500px) {
+@media all and (max-width: 90 font) {
   @import "_tablet.scss";
 }
 
-@media screen and (min-width: 800px) {
+@media all and (max-width: 800px) {
   @import "_desktop.scss";
 }
