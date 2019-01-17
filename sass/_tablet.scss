@@ -1,5 +1,10 @@
 /* Header login */
 
-h1.header-login {
+@media (min-width: 769px) {
+    
+    h1.header-login {
     font-size: 90px;
 }
+     
+    }
+
