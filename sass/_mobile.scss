@@ -2,6 +2,22 @@
 @media (min-width: 375px) {
     
     
+/* Header login */
+
+h1.header-login {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+    
+   
+form{
+    width: 80%;
+    margin: 0 auto;
+        
+}
+    
+    
 /* Header title */
 
 h1#logo-title-header{
@@ -27,13 +43,7 @@ p#description-game{
     padding-bottom: 30px;
 }
 
-/* Header login */
-
-h1.header-login {
-    font-size: 20px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
+        
 /* DragonImage Component */
 
 div.dragon-image-container {
