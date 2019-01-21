@@ -27,7 +27,7 @@ function UserStatsContainer(props) {
      />*/}
       
       
-      <h1 className="shop-header-title">SHOP ITEMS</h1>
+      <h1 className="shop-header-title">Shop Items</h1>
       <p className="shop-description">
         Select the available item to upgrade and get more Zzz per click. 
       </p>

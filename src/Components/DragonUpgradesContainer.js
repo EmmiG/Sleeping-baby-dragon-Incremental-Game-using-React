@@ -34,7 +34,7 @@ const basketInventory = [
   },
 ];
 
-class DragonUpgradeContainer extends Component {
+class DragonUpgradesContainer extends Component {
   render() {
     let slots = [];
 
@@ -58,4 +58,4 @@ class DragonUpgradeContainer extends Component {
   }
 }
 
-export default DragonUpgradeContainer;
+export default DragonUpgradesContainer;
