@@ -1,7 +1,7 @@
 /* Main file to edit the content */
 
 
-import React, { Component } from 'react';
+import React from 'react';
 import MasterContainer from './Components/MasterContainer';
 import LoginForm from './Components/LoginForm';
 import './App.css';

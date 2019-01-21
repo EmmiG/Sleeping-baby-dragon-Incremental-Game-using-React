@@ -75,8 +75,9 @@ function UserStatsContainer(props) {
           buyShopItem={props.buyShopItem}
           totalSnore={props.totalSnore}
         />
+      
+      
       </div>
-   
     </div>
   );
 }
