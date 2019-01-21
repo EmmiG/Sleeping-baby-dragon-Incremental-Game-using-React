@@ -51,6 +51,8 @@ class DragonUpgradesContainer extends Component {
     return (
       <div className="upgrade-container col-xs-12 col-md-6 order-md-1">
         <h1 className="basket-header-title">Basket</h1>
+         <p className="upgrade-description">
+         Buy these items it will make the Zzz go up every 2 second automaticly so you dont need to click as much, will be more expensive each time you buy it</p>
         {/* Displaying each upgrade row */}
         <div>{slots} </div>
       </div>

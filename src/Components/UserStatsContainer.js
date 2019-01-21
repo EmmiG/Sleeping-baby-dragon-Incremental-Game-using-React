@@ -29,7 +29,7 @@ function UserStatsContainer(props) {
       
       <h1 className="shop-header-title">Shop Items</h1>
       <p className="shop-description">
-        Select the available item to upgrade and get more Zzz per click. 
+        Select the available item to upgrade and it will multiply so you will get more Zzz per click, can only be bought once. 
       </p>
       <div className="row multiplier-row">
         {/* 5 shop upgrades */}
