@@ -88,6 +88,7 @@ render() {
             buyDragonUpgrade={this.buyDragonUpgrade}
           />
         </div>
+        
       </div>
     );
   }

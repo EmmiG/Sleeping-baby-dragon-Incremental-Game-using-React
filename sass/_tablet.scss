@@ -2,9 +2,104 @@
 
 @media (min-width: 768px) {
     
+    
     h1.header-login {
-    font-size: 90px;
+    font-size: 40px;
 }
-     
+    
+    
+    
+p#description-game{
+   padding-left: 60px;
+} 
+    
+    
+    
+    
+.footer-contact-info{
+
+    width: 231%;
+    margin-left: -2.2em;
+    
+} 
+    
+    
+    
+.row.multiplier-row{
+    height: 370px;
+    width: 90%;
+    margin-left: -25px;
+     display: flex;
+    
     }
+     
+    
+        /* ShopUpgrade Component */
+
+/* ShopUpgrade buttons default, available and sold out */
+
+
+ .sold-upgrade-button{
+    width: 100%x;
+    height: 100px;
+     //flex-basis: auto; 
+       
+} 
+        
+.available-upgrade-button{
+    width: 100%;
+    min-height: 100px; 
+      //flex-basis: auto; 
+    }
+    
+
+.available-upgrade-buttondisabled{
+    width: 100%;
+    min-height: 100px; 
+    //flex-basis: auto; 
+}
+    
+    
+    /* DragonUpgrades/DragonUpgradesContainer Components */
+
+/* Basket buttons default, available */
+
+.Dragon-upgrade-basket-buttondisabled{
+    
+    width: 100%;
+    min-height: 100px; 
+}
+
+.Dragon-upgrade-basket-button{
+    
+    width: 100%;
+    min-height: 100px; 
+    
+
+    
+}
+    
+    .user-stats-container.col-xs-12.col-md-6.order-md-2{
+        max-height: 1000px;
+    }
+    
+    .upgrade-container.col-xs-12.col-md-6.order-md-1{
+        max-height: 1000px;
+    }
+    
+    
+    .shop-button-container{
+     
+        //flex-flow: row wrap;
+         //justify-content: space-around;
+
+        
+    }
+    
+    
+    
+    
+  
+     
+} /* media 768px end */
 

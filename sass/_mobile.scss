@@ -152,11 +152,14 @@ p.shop-description{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+    
+    
+/* Footer */
 
     
 .footer-contact-info{
     background-color: aqua;
-    width: 100%;
+    width: 110%;
     height: auto;
     margin: 0;
     padding: 1.2em;
@@ -164,7 +167,9 @@ p.shop-description{
     position: relative;
     z-index: 1;
     margin-top: 20px;
+    margin-left: -15px;
 }
+
 
 } /* end media 375px mobile */
 
