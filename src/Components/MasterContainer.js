@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 import UserStatsContainer from './UserStatsContainer.js';
 import DragonUpgradesContainer from './DragonUpgradesContainer.js';
+import Footer from './Footer.js';
 
 /* login */
 
@@ -88,8 +89,9 @@ render() {
             buyDragonUpgrade={this.buyDragonUpgrade}
           />
         </div>
-        
+        <Footer />
       </div>
+        
     );
   }
 }

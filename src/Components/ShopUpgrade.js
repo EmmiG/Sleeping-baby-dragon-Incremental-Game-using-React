@@ -56,7 +56,7 @@ class ShopUpgrade extends Component {
     // Returning the HTML div container and button elements, assigning the className,
     // onClick and the props name sent from the PlayerStatsContainer Component.
     return (
-      <div className="col-sm-3 shop-button-container">
+      <div className="col-sm-3 col-md-6 shop-button-container">
         <button className={className} onClick={this.handleDragonClick}>
           {this.props.name}
         {/*  <div className="Shop-image-container col-xs-3 col-sm-3 col-lg-3">

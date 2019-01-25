@@ -18,7 +18,7 @@ p#description-game{
     
 .footer-contact-info{
 
-    width: 231%;
+    width: 110%;
     margin-left: -2.2em;
     
 } 
@@ -27,10 +27,7 @@ p#description-game{
     
 .row.multiplier-row{
     height: 370px;
-    width: 90%;
-    margin-left: -25px;
-     display: flex;
-    
+  
     }
      
     
@@ -40,23 +37,21 @@ p#description-game{
 
 
  .sold-upgrade-button{
-    width: 100%x;
+    width: 100px;
     height: 100px;
-     //flex-basis: auto; 
-       
+         
 } 
         
 .available-upgrade-button{
-    width: 100%;
-    min-height: 100px; 
-      //flex-basis: auto; 
+    width: 100px;
+    min-height: 100px;  
     }
     
 
 .available-upgrade-buttondisabled{
-    width: 100%;
+    width: 100px;
     min-height: 100px; 
-    //flex-basis: auto; 
+  
 }
     
     
@@ -79,6 +74,8 @@ p#description-game{
     
 }
     
+
+    
     .user-stats-container.col-xs-12.col-md-6.order-md-2{
         max-height: 1000px;
     }
@@ -90,16 +87,17 @@ p#description-game{
     
     .shop-button-container{
      
-        //flex-flow: row wrap;
-         //justify-content: space-around;
+    width: 100%;
 
         
     }
     
     
     
+  } /* media 768px end */  
+    
     
   
      
-} /* media 768px end */
+
 

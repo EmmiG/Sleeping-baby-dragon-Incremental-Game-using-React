@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import DragonUpgrades from './DragonUpgrades.js';
-import Footer from './Footer.js';
+//import Footer from './Footer.js';
 
 const basketInventory = [
   {
@@ -56,7 +56,6 @@ class DragonUpgradesContainer extends Component {
          Buy these items it will make the Zzz go up every 2 second automaticly so you dont need to click as much, will be more expensive each time you buy it</p>
         {/* Displaying each upgrade row */}
         <div>{slots} </div>
-          <Footer />
       </div>
        
     );
