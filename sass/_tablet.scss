@@ -1,98 +1,84 @@
-/* Header login */
 
 @media (min-width: 768px) {
     
+/* Left and right big containers */ 
     
-    h1.header-login {
-    font-size: 40px;
+.user-stats-container.col-xs-12.col-md-6.order-md-2{
+        max-height: 1000px;
 }
     
+.upgrade-container.col-xs-12.col-md-6.order-md-1{
+        max-height: 1000px;
+}
+   
+/* Header login */    
     
+h1.header-login {
+    font-size: 40px;
+}
+       
+/* Header Description */
     
 p#description-game{
    padding-left: 60px;
 } 
-    
-    
-    
-    
-.footer-contact-info{
-
-    width: 110%;
-    margin-left: -2.2em;
-    
-} 
-    
-    
-    
+       
+     /* UserStatsContainer Component */   
+       
 .row.multiplier-row{
     height: 370px;
-  
-    }
-     
-    
+}
+       
         /* ShopUpgrade Component */
+    
+/* ShopUpgrade Container */
+    
+.shop-button-container{
+     width: 100%;
+}
 
 /* ShopUpgrade buttons default, available and sold out */
 
 
- .sold-upgrade-button{
+.sold-upgrade-button{
     width: 100px;
     height: 100px;
-         
 } 
         
 .available-upgrade-button{
     width: 100px;
     min-height: 100px;  
-    }
+}
     
 
 .available-upgrade-buttondisabled{
     width: 100px;
     min-height: 100px; 
-  
 }
     
     
-    /* DragonUpgrades/DragonUpgradesContainer Components */
+     /* DragonUpgrades/DragonUpgradesContainer Components */
 
 /* Basket buttons default, available */
 
 .Dragon-upgrade-basket-buttondisabled{
-    
     width: 100%;
     min-height: 100px; 
 }
 
 .Dragon-upgrade-basket-button{
-    
     width: 100%;
     min-height: 100px; 
-    
-
-    
 }
+ 
+    /* Footer Component */
+/* Footer */
     
-
-    
-    .user-stats-container.col-xs-12.col-md-6.order-md-2{
-        max-height: 1000px;
-    }
-    
-    .upgrade-container.col-xs-12.col-md-6.order-md-1{
-        max-height: 1000px;
-    }
-    
-    
-    .shop-button-container{
+.footer-contact-info{
+    width: 110%;
+    margin-left: -2.2em;
+} 
      
-    width: 100%;
-
-        
-    }
-    
-    
     
   } /* media 768px end */  
     
