@@ -9,7 +9,7 @@ Special thank you go to my brother PortalMaster82 for creating/drawing the image
 Here is my repository: 
 
 Description
-Sleeping Dragon Increment clicking game is build with react.js. Version 1 will be a image of a dragon where you can click to be able to unlock 5 different upgrades. In the future you will be able to get different costumes and much more to make the clicking more fun. 
+Sleeping Dragon Increment clicking game is build with react.js. Version 1 will be an image of a dragon where you can click to be able to unlock 5 different upgrades. In the future you will be able to get different costumes and much more to make the clicking more fun.  
 
 Built with
 
@@ -34,7 +34,7 @@ V* Det ska finnas uppgradering som blir tillgängliga beroende på hur mycket ma
 
 V* Uppgraderingarna ska bli dyrare eller svårare att skaffa desto fler av dem man köper. En uppgradering kan t.ex. kosta 15 klick första gången man köper den och sedan ökar kostnaden med 5 klick varje gång man köper en till av den.
 
-TO DO:* Minst en av uppgraderingarna ska göra så att poängen ökas automatiskt enligt ett visst intervall. Denna uppgradering ska alltså göra så att man slipper klicka men får poäng ändå, men man kan ändå klicka för att få poäng snabbare.
+V* Minst en av uppgraderingarna ska göra så att poängen ökas automatiskt enligt ett visst intervall. Denna uppgradering ska alltså göra så att man slipper klicka men får poäng ändå, men man kan ändå klicka för att få poäng snabbare.
 
 V* Du delar upp din applikation i flera mindre komponenter. Skapar du ett formulär kan du t.ex. döpa det till <SubmitForm />. <SubmitForm /> kan i sin tur har underkomponenter så som <InputField /> och SubmitButton />.
 
@@ -42,8 +42,10 @@ V* Innehåller dina komponenter ingen logik (state t.ex.) så ska de vara Statel
 
 V* Du ska ha en mapp inuti src som heter components där dina komponenter ska ligga, denna mapp kan i sin tur ha undermappar.
 
-TO DO:* För styling får du använda ett ramverk som t.ex. Bootstrap eller Semantic UI. Eller ska kan du skriva din css helt själv. Vilket sätter du väljer att styla dina komponenter är upp till dig men upplägget och användning av styling ska vara konsekvent. Du får använda bibliotek så som styled components
+V* För styling får du använda ett ramverk som t.ex. Bootstrap eller Semantic UI. Eller ska kan du skriva din css helt själv. Vilket sätter du väljer att styla dina komponenter är upp till dig men upplägget och användning av styling ska vara konsekvent. Du får använda bibliotek så som styled components
 
-TO DO LEFT: link to finish repo* Din kod versionhanteras via GitHub V och ska ha en README som innehåller ditt namn V, länk till repot och eventuell länk till live-sidan om du har deployat din applikation
+V link to finish repo: https://emmig.github.io/Sleeping-baby-dragon-Incremental-Game-using-React/ 
+V * Din kod versionhanteras via GitHub och ska ha en README som innehåller ditt namn, länk till repot
+och eventuell länk till live-sidan om du har deployat din applikation
 
 */
