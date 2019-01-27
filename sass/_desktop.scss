@@ -18,13 +18,17 @@ h1.header-login {
     font-size: 50px;
 }
     
-    /* Header Component */
-       
-/* Header Description */
+      
+    /* DragonImage Component */
+
     
+img.dragon-click-image {
+  
+  transition: all 0.2s ease-in-out;  
+}
     
-p#description-game {
-    margin-left: 60px;
+img.dragon-click-image:active {
+  transform: scale(0.8);    
 }
     
     
