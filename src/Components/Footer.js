@@ -1,6 +1,9 @@
-//import React from "react";
 
 import React from 'react';
+
+/* 
+    * Footer Component displayed in the MasterContainer.js
+*/
 
 
 export default class Footer extends React.Component {
