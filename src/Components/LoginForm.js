@@ -2,10 +2,20 @@ import React, { Component } from 'react';
 import Header from './Header.js';
 
 
-// when you shall use state you start with class
+/*
+    * when you shall use state you start with class
+*/
+
 class LoginForm extends Component {
     
-    /*login*/
+/*
+    * created so you could add any email and password
+    * display the email that you put in the login inputfield.
+    * made an error state an error will display when a user type a too short
+    * password which has under 7 letters code handlePassword function.
+    * handleSubmit function will call for the error state if the user have typed in
+    * wrong email or password and it will display for the user. 
+*/
     
     state = {
     email: '',
@@ -40,14 +50,28 @@ handleEmail = (event) => {
     }
     
   }
-
-
-    
+  
+/*
+    * Made a variables for the error handling and wrote the classes which
+    * I wanted it to check with an if statement.
+    * Displayed the header.js Component
+    * Called the handleSubmit function in the form
+    * called for the errorClass
+    * Made a label Email adress 
+    * Input which is the type of email
+    * autoFocus flag: for the email field, so that when the form loads,
+    * it sets focus to this field.
+    * placeholder that will display the written text in the inputfield.
+    * If the email is changed the function handleEmail will be running.
+    * value state email will be running
+    * Have another label with input which will check the password also.
+    * If the password is changed the function handlePassword will be running.
+    * value state password will be running
+    * At the end of this Component it displays a button on the page
+*/
+  
     render(){
-        
-        /* login */
-        
-        
+
         
         let errorMessage = null;
     if(this.state.error){
