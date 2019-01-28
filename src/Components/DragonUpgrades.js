@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
-
+/*
+    * made a state of timesBought 0 which will mean that as default when the game start it will
+    * start on 0 and in the background it will count how many times you have bought an upgrade 
+    * item but instead of showing how many times you have bought the item it will instead be more
+    * expensive next time you will buy that item.
+    * As before we will have the itemCost as the props that it will get from the DragonUpgradesContainer.js
+    * component so it can calculate the price the upgrade has right now and be able to update it. 
+    * To make the more expensive part each time you buy an upgrade 
+*/
 
 class DragonUpgrades extends Component {
  
@@ -14,13 +22,21 @@ class DragonUpgrades extends Component {
       price: this.props.upgrade.itemCost, 
     };
   }
-    
-    
+/*
+    * function named totalSumPrice which will have the parameters of itemCost and timesBought 
+    * to calculate the base cost itself of the upgrade and make it know it shall make it more
+    * expensive next time it has been bought, so needed to multiply the itemCost with timesBought,
+    * set the power to 2.00. 
+*/
     totalSumPrice(itemCost, timesBought) {
    
     return Math.ceil(itemCost * Math.pow(2.00, timesBought));
   }
-    
+/*
+    * handleDragonClick function again which I did the same in my ShopUpgrade.js component file
+    * to calculate the price itself with the totalSnore the user have to see if the user can buy
+    * the upgrade or not.
+*/
     handleDragonClick() {
     let canBuy = this.state.price <= this.props.totalSnore;
     if (!canBuy) {
@@ -39,7 +55,14 @@ class DragonUpgrades extends Component {
       price: newPrice,
     });
   }
-
+/*
+    * Made a new variable with the name newprice which will calculate the new price and call the
+    * totalSumPrice function. It will add by one each time the button is pressed but like I said 
+    * before this will be shown in the background so user wont see that it is changed from for
+    * instance bought that the upgrade is bought X times as printed on the browser. 
+    * After the upgrade is bought the state will be set as well to be incresed by one and update
+    * the new price.
+*/
     render() {
 
     const upgrade = this.props.upgrade;
