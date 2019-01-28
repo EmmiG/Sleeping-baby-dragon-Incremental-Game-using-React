@@ -36,6 +36,12 @@ class DragonUpgrades extends Component {
     * handleDragonClick function again which I did the same in my ShopUpgrade.js component file
     * to calculate the price itself with the totalSnore the user have to see if the user can buy
     * the upgrade or not.
+    * Made a new variable with the name newprice which will calculate the new price and call the
+    * totalSumPrice function. It will add by one each time the button is pressed but like I said 
+    * before this will be shown in the background so user wont see that it is changed from for
+    * instance bought that the upgrade is bought X times as printed on the browser. 
+    * After the upgrade is bought the state will be set as well to be incresed by one and update
+    * the new price.
 */
     handleDragonClick() {
     let canBuy = this.state.price <= this.props.totalSnore;
@@ -55,13 +61,12 @@ class DragonUpgrades extends Component {
       price: newPrice,
     });
   }
-/*
-    * Made a new variable with the name newprice which will calculate the new price and call the
-    * totalSumPrice function. It will add by one each time the button is pressed but like I said 
-    * before this will be shown in the background so user wont see that it is changed from for
-    * instance bought that the upgrade is bought X times as printed on the browser. 
-    * After the upgrade is bought the state will be set as well to be incresed by one and update
-    * the new price.
+    
+/* 
+    * variable upgrade which will hold the props of upgrade.
+    * variable for the price and set the price value in the state.
+    * variable for the canBuy and set the price itself with the state of if its less than the
+    * number of totalSnore you have.
 */
     render() {
 
