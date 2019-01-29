@@ -1,5 +1,5 @@
 /* 
-* App.js will be for the Login handling
+    * App.js will be for the Login handling
 */
 
 import React from 'react';
@@ -39,7 +39,7 @@ constructor(props){
     super(props);
     
 /* 
-* Binding to the handleLogin function so that we will see the state when a user logs in.
+    * Binding to the handleLogin function so that we will see the state when a user logs in.
 */ 
     
   this.handleLogin = this.handleLogin.bind(this);
