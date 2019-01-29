@@ -67,6 +67,10 @@ class DragonUpgrades extends Component {
     * variable for the price and set the price value in the state.
     * variable for the canBuy and set the price itself with the state of if its less than the
     * number of totalSnore you have.
+    
+    * Return Basket buttons, they will be in default with an image,
+    * when you cant buy the upgrade yet and change to available image
+    * once you have enough snores to be able to buy it
 */
     render() {
 

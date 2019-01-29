@@ -1,20 +1,29 @@
-/* Will contain information from: DragonImage , UserName , TotalSnoreContainer, ShopUpgrade */
 
 import React from 'react';
 import UserName from './UserName.js';
 import DragonImage from './DragonImage.js';
 import TotalSnoreContainer from './TotalSnoreContainer.js';
 import ShopUpgrade from './ShopUpgrade.js';
-//import HiddenandShow from './HiddenandShow.js';
 
+/*
+    * function that returned a div which has the UserName Component will
+    * take the props value from the email that was submitted from the LoginForm.js.
+    * DragonImage Component, with props from handleDragonClick function.
+    * Return from the TotalSnoreContainer component with the props totalSnore
+    * and snorePerSecond. 
+    * ShopUpgrade component the itemCost, how much the upgrade will add by clicks,
+    * and take with the props of buyShopItem and totalSnore.
+    * When you have clicked for instance 50 clicks you can buy the first upgrade
+    * which is named Crystal Ball and it will then define 50 from your totalSnore
+    * meaning total clicks, it will also add by 2 instead of the normal one click
+    * each time.
 
+*/
 
 function UserStatsContainer(props) {
   return (
     <div className="user-stats-container col-xs-12 col-md-6 order-md-2">
-      {/* UserName component, with props for email */}
       <UserName email={props.email} />
-      {/* DragonImage component, with props for handleClicks function */}
       <DragonImage onDragonClick={props.handleDragonClick} />
       
         <TotalSnoreContainer
@@ -22,17 +31,13 @@ function UserStatsContainer(props) {
         snorePerSecond={props.snorePerSecond}
       />
       
-      {/*<HiddenandShow 
-       ToggleClick={props.ToggleClick}
-     />*/}
-      
-      
       <h1 className="shop-header-title">Shop Items</h1>
       <p className="shop-description">
-        Select the available item to upgrade and it will multiply so you will get more Zzz per click, can only be bought once. 
+        Select the available item to upgrade and it will multiply so you will get more Zzz per click,
+        can only be bought once. 
       </p>
       <div className="row multiplier-row">
-        {/* 5 shop upgrades */}
+{/* 5 shop upgrades */}
       
         <ShopUpgrade
           itemCost={50}
@@ -43,7 +48,7 @@ function UserStatsContainer(props) {
 
         />
         
-         {/* Unlock clicks add by 5, in the future version of this game it will unlock costumes */}
+{/* Unlock clicks add by 5, in the future version of this game it will unlock costumes */}
         <ShopUpgrade
           itemCost={300}
           name="Dragon Closet"
@@ -51,7 +56,7 @@ function UserStatsContainer(props) {
           buyShopItem={props.buyShopItem}
           totalSnore={props.totalSnore}
         />
-        {/* Unlock clicks add by 10, in the future version of this game it will unlock background color change and random background color change */}
+{/* Unlock clicks add by 10, in the future version of this game it will unlock background color change and random background color change */}
         <ShopUpgrade
           itemCost={2500}
           name="Dragon Gem Box"
@@ -67,7 +72,7 @@ function UserStatsContainer(props) {
           buyShopItem={props.buyShopItem}
           totalSnore={props.totalSnore}
         />
-       {/* Unlock clicks add by 50, it will unlock autoclicker*/}
+
         <ShopUpgrade
           itemCost={10000}
           name="Helping Spirit"
