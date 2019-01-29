@@ -1,8 +1,10 @@
 import React from 'react';
 
+/*
+    * UserName Component, passing in props from LoginForm.
+    * Displayed in UserStatsContainer.
+*/
 
-// UserName component, passing in props from LoginForm.
-// Displayed in UserStatsContainer.
 function UserName(props) {
   return (
       
