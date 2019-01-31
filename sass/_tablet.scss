@@ -60,19 +60,24 @@ p#description-game{
     min-height: 100px; 
 }
     
+/* Title */ 
     
+h1.basket-header-title{
+    padding-top: 10px;
+}
+     
      /* DragonUpgrades/DragonUpgradesContainer Components */
 
 /* Basket buttons default, available */
 
 .Dragon-upgrade-basket-buttondisabled{
     width: 100%;
-    min-height: 100px; 
+    height: auto;    
 }
 
 .Dragon-upgrade-basket-button{
     width: 100%;
-    min-height: 100px; 
+    height: auto; 
 }
  
     /* Footer Component */
