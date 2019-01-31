@@ -75,7 +75,7 @@ img.dragon-click-image:active {
 
 
 .sold-upgrade-button{
-    background: url("./images/sold.png");
+    background: url("./images/button_sold.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -85,7 +85,7 @@ img.dragon-click-image:active {
 } 
         
 .available-upgrade-button{
-    background: url("./images/availableimage.png");
+    background: url("./images/button_available.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,7 +95,7 @@ img.dragon-click-image:active {
 }
     
 .available-upgrade-buttondisabled{
-    background: url("./images/Defaultimage.png");
+    background: url("./images/button_default.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,7 +110,7 @@ img.dragon-click-image:active {
 /* Basket buttons default, available */
 
 .Dragon-upgrade-basket-buttondisabled{
-    background: url("./images/Defaultimage.png");
+    background: url("./images/button_default.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -119,7 +119,7 @@ img.dragon-click-image:active {
 }
 
 .Dragon-upgrade-basket-button{
-    background: url("./images/availableimage.png");
+    background: url("./images/button_available.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
