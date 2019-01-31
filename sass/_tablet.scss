@@ -45,19 +45,22 @@ p#description-game{
 
 
 .sold-upgrade-button{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
+    text-align: left;
 } 
         
 .available-upgrade-button{
-    width: 100px;
-    min-height: 100px;  
+    width: 100%;
+    height: auto;
+    text-align: left;
 }
     
 
 .available-upgrade-buttondisabled{
-    width: 100px;
-    min-height: 100px; 
+    width: 100%;
+    height: auto;
+    text-align: left;
 }
     
 /* Title */ 
