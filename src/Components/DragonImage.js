@@ -19,7 +19,7 @@ function DragonImage(props) {
       <img
         id="click-image"
         className="dragon-click-image"
-        src="./images/dragonimage.png"
+        src="./images/sleepingdragonbasket.png"
         alt=""
         onClick={props.onDragonClick}
       />

@@ -4,11 +4,11 @@
 /* Left and right big containers */ 
     
 .user-stats-container.col-xs-12.col-md-6.order-md-2{
-    max-height: 1000px;
+    max-height: 1100px;
 }
     
 .upgrade-container.col-xs-12.col-md-6.order-md-1{
-    max-height: 1000px;
+    max-height: 1100px;
 }
    
    /* Username Component */ 
@@ -31,6 +31,7 @@ p#description-game{
        
 .row.multiplier-row{
     height: 370px;
+    justify-content: space-around;
 }
        
         /* ShopUpgrade Component */
