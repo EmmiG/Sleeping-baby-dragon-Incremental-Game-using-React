@@ -22,6 +22,7 @@ h1.header-login {
        
 .row.multiplier-row{
     justify-content: space-between;
+    font-size: 20px;
 }
     
       
@@ -39,6 +40,18 @@ img.dragon-click-image:active {
     
     
      /* DragonUpgrades/DragonUpgradesContainer Components */
+    
+/* Text in the basket buttons */
+    
+p.upgrade-name {
+    font-size: 36px;
+}
+    
+/* How much the upgrade cost */
+    
+p.basket-cost {
+    font-size: 36px;
+}    
     
 /* image icons in the buttons */
     
