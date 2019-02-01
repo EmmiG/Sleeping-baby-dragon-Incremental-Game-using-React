@@ -21,7 +21,7 @@ const basketInventory = [
     name: 'Sleeping Pills',
     itemCost: 15,
     snorePerSecond: 1,
-    image: 'images/',
+    image: 'images/pills.png',
   },
   {
     name: 'Soft Music',

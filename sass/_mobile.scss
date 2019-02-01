@@ -107,6 +107,16 @@ img.dragon-click-image:active {
     
     /* DragonUpgrades/DragonUpgradesContainer Components */
 
+/* image icons in the buttons */
+    
+img.upgrade-image{
+    width: 31%;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    margin-left: 50px;
+}
+
 /* Basket buttons default, available */
 
 .Dragon-upgrade-basket-buttondisabled{
