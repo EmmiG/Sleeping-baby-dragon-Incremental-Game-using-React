@@ -27,25 +27,25 @@ const basketInventory = [
     name: 'Soft Music',
     itemCost: 50,
     snorePerSecond: 10,
-    image: 'images/',
+    image: 'images/music.png',
   },
   {
     name: 'Comfy Blanket',
     itemCost: 150,
     snorePerSecond: 20,
-    image: 'images/',
+    image: 'images/blanket.png',
   },
   {
     name: 'Aroma Candles',
     itemCost: 300,
     snorePerSecond: 70,
-    image: 'images/',
+    image: 'images/candles.png',
   },
   {
     name: 'Fluffy Pillow',
     itemCost: 500,
     snorePerSecond: 100,
-    image: 'images/',
+    image: 'images/pillow.png',
   },
 ];
 
