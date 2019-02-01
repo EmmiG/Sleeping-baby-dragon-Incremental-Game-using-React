@@ -12,8 +12,8 @@ import DragonUpgrades from './DragonUpgrades.js';
     * made a list of upgrades which is avialable once the other upgrades in the
     * ShopUpgrades.js component which is shown in the UserStatsContainer.js 
     * component is sold out. As before I created the name of the upgrade, itemCost
-    * but also added an image its blank for now because I dont have an image but
-    * it will be in the images folder later.
+    * but also added images which is connected so it will get the image from the
+    * public/ images folder.
 */
 
 const basketInventory = [
