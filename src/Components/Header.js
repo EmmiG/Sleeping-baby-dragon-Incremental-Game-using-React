@@ -1,6 +1,20 @@
 import React from 'react';
 
-/*login*/
+/*
+    * Shown as the first page you see in the game
+    * Header tag with a header-login container.
+    * A div with a className wrapping in an image tag.
+    * Sleeping baby dragon logo have an id.
+    * The dragon-logo id also have a className.
+    * src= source where you find the image in a special folder.
+    * alt = if the image aren´t showing it will say what it is by text.
+    
+    * header-title will be a as a wrapper around the description title
+    * and explain of how the Increment clicking game works.
+    * End the header tag.
+    * Always have an import beginning and export end in react when you create
+    * a Component.
+*/
 
 function Header(props){
   return(
@@ -12,7 +26,7 @@ function Header(props){
         id="dragon-logo"
         className="sleeping-dragon-logo"
         src="./images/sleepingdragonlogo.png"
-        alt=""
+        alt="Baby_dragon_image"
       />
     </div>
       
