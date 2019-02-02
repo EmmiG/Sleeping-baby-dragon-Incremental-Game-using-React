@@ -6,9 +6,18 @@ function Header(props){
   return(
     <header>
       <div className="header-login-container">
-      <h1 id="logo-title-header">Sleeping baby dragon</h1>
+      
+       <div className="logo-header">
+      <img
+        id="dragon-logo"
+        className="sleeping-dragon-logo"
+        src="./images/sleepingdragonlogo.png"
+        alt=""
+      />
+    </div>
+      
       <div className="header-title">
-      <h2 id="header-description-title">Description of the game:</h2>
+      <h1 id="header-description-title">Description of the game:</h1>
       </div>
       <div className="header-description">
       <p id="description-game"> 

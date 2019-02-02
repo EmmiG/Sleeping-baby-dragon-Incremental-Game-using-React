@@ -19,19 +19,21 @@ h1.header-login {
 form{
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 40px;
         
 }
     
     /* Header Component */
 
-/* Header title */
+/* Sleeping Baby Dragon logo */
 
-h1#logo-title-header{
-    padding-top: 30px;
-    font-size: 33px;
+#dragon-logo{
+   width: 100%;
 }
 
-h2#header-description-title{
+/* Header title */
+
+h1#header-description-title{
     font-size: 25px;
     padding-top: 30px;
 } 
