@@ -1,10 +1,11 @@
-App not done still under progress
+App version 1.0 completed
+
 Sleeping Dragon Increment clicking game
 
 
 By Emmi Gillgren
 
-Special thank you go to my brother PortalMaster82 for creating/drawing the image pictures like I want them to be.
+Special thank you go to my brother PortalM82 for creating/drawing the image pictures like I want them to be.
 
 Here is my repository: 
 
