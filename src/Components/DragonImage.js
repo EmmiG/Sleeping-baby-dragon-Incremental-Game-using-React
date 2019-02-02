@@ -4,7 +4,6 @@ import React from 'react';
 /*
     * DragonImage Component Made a standard Component with import with react and always export
     * default at the end.
-    * alt= if the image aren´t showing it will say what it is by text.
     * This function is the Dragon image itself which will take the onclick as props to my
     * UserStatsContainer component.
 */
@@ -12,6 +11,7 @@ import React from 'react';
 function DragonImage(props) {
 /*
     * src= source of which folder and name the image file have
+    * alt= if the image aren´t showing it will say what it is by text.
     * onclick= If you click on the dragon this props will active
 */
     
